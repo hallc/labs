@@ -1,0 +1,45 @@
+#!/bin/sh
+#
+### BEGIN INIT INFO	
+# Provides:          firewall
+# Required-Start:    $network
+# Required-Stop:     $network
+# Default-Start:     2 3 4 5
+# Default-Stop:      0 1 6
+# Short-Description: Firewall
+# Description:       Firewall
+### END INIT INFO
+
+case "$1" in
+	start)
+		echo -n "Loading firewall rules..."
+		iptables -F
+
+		iptables --policy INPUT DROP
+		iptables --policy OUTPUT ACCEPT
+		iptables --policy FORWARD ACCEPT
+
+		iptables -A INPUT -i lo -j ACCEPT
+		#iptables -A INPUT -p icmp -j ACCEPT
+		iptables -A INPUT -m state --state ESTABLISHED,RELATED -j ACCEPT
+		#iptables -A INPUT -p tcp --dport 22 -m state --state NEW -j ACCEPT
+
+		echo "done."
+	;;
+	stop)
+		echo -n "Clearing firwall rules..."
+		iptables -F
+
+		iptables --policy INPUT ACCEPT
+		iptables --policy OUTPUT ACCEPT
+		iptables --policy FORWARD ACCEPT
+
+		echo "done."
+	;;
+	status)
+		iptables -L
+	;;
+	*)
+		echo "Usage: firewall {start|stop|status}"
+	;;
+esac
