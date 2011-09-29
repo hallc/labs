@@ -1,6 +1,5 @@
-ANDROID_SDK_PATH=/Applications/android-sdk-mac_x86/tools:/Applications/android-sdk-mac_x86/platform-tools
-PYTHON3_PATH=/Library/Frameworks/Python.framework/Versions/3.2/bin
-export PATH=$PYTHON3_PATH:$PATH:~/Projects/labs/scripts:$ANDROID_SDK_PATH
+export RSYNC_ACCOUNT="7069@usw-s007.rsync.net"
+export PATH=$PATH:~/Projects/labs/scripts
 export EDITOR=/usr/bin/vim
 
 export PS1="[\u@\h \W]\$ "

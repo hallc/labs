@@ -4,14 +4,14 @@
 <plist version="1.0">
 <dict>
         <key>Label</key>
-        <string>net.mod10.remote_backup</string>
+        <string>remote_backup</string>
         <key>LowPriorityIO</key>
         <true/>
         <key>Program</key>
-        <string>/Users/crh/Library/LaunchAgents/net.mod10.remote_backup.sh</string>
+        <string>/Users/crh/Library/LaunchAgents/remote_backup.sh</string>
         <key>ProgramArguments</key>
         <array>
-                <string>net.mod10.remote_backup.sh</string>
+                <string>remote_backup.sh</string>
         </array>
 		<key>RunAtLoad</key>
 		<true/>

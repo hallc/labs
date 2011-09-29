@@ -1,5 +1,8 @@
 #!/bin/sh
 #
+# chkconfig: 2345 08 92
+# description: Firewall
+#
 ### BEGIN INIT INFO	
 # Provides:          firewall
 # Required-Start:    $network
