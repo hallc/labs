@@ -9,7 +9,7 @@ if [ -d "$drive" ]; then
 	if [ ! -d "$dst" ]; then
 		mkdir -p "$dst"
 	fi
-	rsync -av --del "$src" "$dst"
+	rsync -avh --del "$src" "$dst"
 	/usr/local/bin/growlnotify -t "MUSIC" -m "Music synchronization complete."
 fi
 
