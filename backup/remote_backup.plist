@@ -2,7 +2,7 @@
 <!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" \
 "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-<dict>
+	<dict>
         <key>Label</key>
         <string>remote_backup</string>
         <key>LowPriorityIO</key>
@@ -11,9 +11,9 @@
         <string>/Users/crh/Library/LaunchAgents/remote_backup.sh</string>
         <key>ProgramArguments</key>
         <array>
-                <string>remote_backup.sh</string>
+			<string>remote_backup.sh</string>
         </array>
 		<key>RunAtLoad</key>
 		<true/>
-</dict>
+	</dict>
 </plist>

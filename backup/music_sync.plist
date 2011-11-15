@@ -2,7 +2,7 @@
 <!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" \
 "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-<dict>
+	<dict>
         <key>Label</key>
         <string>music_sync</string>
         <key>LowPriorityIO</key>
@@ -11,9 +11,9 @@
         <string>/Users/crh/Library/LaunchAgents/music_sync.sh</string>
         <key>ProgramArguments</key>
         <array>
-                <string>music_sync.sh</string>
+			<string>music_sync.sh</string>
         </array>
-		<key>RunAtLoad</key>
+		<key>StartOnMount</key>
 		<true/>
-</dict>
+	</dict>
 </plist>
