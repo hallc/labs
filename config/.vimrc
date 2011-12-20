@@ -1,3 +1,4 @@
+set guioptions=-mt
 set nobackup
 set autoindent
 set smartindent
