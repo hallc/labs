@@ -1,4 +1,4 @@
-export RSYNC_ACCOUNT="7069@usw-s007.rsync.net"
+export RSYNC_ACCOUNT="rsync@sandbox"
 export PATH=$PATH:~/Projects/labs/scripts
 export EDITOR=/usr/bin/vim
 

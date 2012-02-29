@@ -4,7 +4,7 @@
 <plist version="1.0">
 	<dict>
 		<key>Label</key>
-		<string>music_sync</string>
+		<string>backup</string>
 		<key>LowPriorityIO</key>
 		<true/>
 		<key>ProgramArguments</key>
@@ -12,9 +12,9 @@
 			<string>/bin/bash</string>
 			<string>-l</string>
 			<string>-c</string>
-			<string>/Users/crh/Library/LaunchAgents/music_sync.sh</string>
+			<string>/Users/crh/Library/LaunchAgents/backup.sh</string>
 		</array>
-		<key>StartOnMount</key>
+		<key>RunAtLoad</key>
 		<true/>
 	</dict>
 </plist>
