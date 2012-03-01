@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 drive="/Volumes/TDI"
 src="$HOME/Music/iTunes/iTunes Media/Music"

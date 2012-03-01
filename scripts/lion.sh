@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 chflags nohidden ~/Library
 chflags hidden ~/Documents/RDC\ Connections
