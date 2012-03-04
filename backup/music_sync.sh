@@ -1,6 +1,6 @@
 #!/bin/bash
 
-drive="/Volumes/TDI"
+drive="/Volumes/MUSIC"
 src="$HOME/Music/iTunes/iTunes Media/Music"
 dst="$drive"
 
