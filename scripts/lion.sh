@@ -7,3 +7,5 @@ chflags hidden ~/Documents/Microsoft\ User\ Data
 #sudo systemsetup -setkernelbootarchitecture i386
 sudo systemsetup -setkernelbootarchitecture x86_64
 
+sudo pmset -a hibernatemode 0
+
