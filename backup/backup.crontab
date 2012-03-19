@@ -1,9 +1,0 @@
-# Start the rsync job every day at 1:30 AM.
-30  1   *   *   *       ~/backup.sh
-
-# Stop the rsync job at 4:30 PM on weekdays.
-30  16  *   *   1-5     killall rsync
-
-# Stop the rsync job at 8:00 AM on weekends.
-0   8   *   *   0,6     killall rsync
-

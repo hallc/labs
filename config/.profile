@@ -1,4 +1,3 @@
-export RSYNC_ACCOUNT="rsync@sandbox"
 export PATH=$PATH:~/Projects/labs/scripts
 export PATH=/Library/Frameworks/Python.framework/Versions/3.2/bin:$PATH
 export PATH=/Library/Frameworks/Python.framework/Versions/2.7/bin:$PATH

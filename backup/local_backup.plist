@@ -4,7 +4,7 @@
 <plist version="1.0">
 	<dict>
 		<key>Label</key>
-		<string>backup</string>
+		<string>local_backup</string>
 		<key>LowPriorityIO</key>
 		<true/>
 		<key>ProgramArguments</key>
@@ -12,7 +12,7 @@
 			<string>/bin/bash</string>
 			<string>-l</string>
 			<string>-c</string>
-			<string>/Users/crh/Library/LaunchAgents/backup.sh</string>
+			<string>/Users/crh/Library/LaunchAgents/local_backup.sh</string>
 		</array>
 		<key>RunAtLoad</key>
 		<true/>
