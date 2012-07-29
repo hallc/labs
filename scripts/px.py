@@ -22,6 +22,7 @@ def main():
 	
 	sizes = [
 		Size(4, 6),
+		Size(5, 7),
 		Size(8, 10),
 		Size(11, 14),
 		Size(13, 19),
