@@ -5,11 +5,11 @@ src="$HOME/Music/iTunes/iTunes Media/Music"
 dst="$drive"
 
 if [ -d "$drive" ]; then
-	/usr/local/bin/growlnotify -t "MUSIC" -m "Synchronizing music."
+	terminal-notifier -title "MUSIC" -message "Synchronizing music."
 	if [ ! -d "$dst" ]; then
 		mkdir -p "$dst"
 	fi
 	rsync -avh --del "$src" "$dst"
-	/usr/local/bin/growlnotify -t "MUSIC" -m "Music synchronization complete."
+	terminal-notifier -title "MUSIC" -message "Music synchronization complete."
 fi
 
