@@ -1,6 +1,4 @@
 PATH=$PATH:~/Projects/labs/scripts
-PATH=/Library/Frameworks/Python.framework/Versions/3.2/bin:$PATH
-PATH=/Library/Frameworks/Python.framework/Versions/2.7/bin:$PATH
 export PATH
 
 export EDITOR=/usr/bin/vim
@@ -24,4 +22,5 @@ else
 fi
 alias ll='ls -lh'
 alias la='ls -A'
+alias chop12="sed 's/\(.\{12\}\).*/\1/'"
 
