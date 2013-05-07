@@ -1,5 +1,7 @@
-PATH=$PATH:~/Projects/labs/scripts
-export PATH
+MY_PATH=/Library/Frameworks/Python.framework/Versions/3.3/bin
+MY_PATH=$MY_PATH:~/Projects/labs/scripts
+MY_PATH=$MY_PATH:/Applications/android-sdk-macosx/tools
+export PATH=$MY_PATH:$PATH
 
 export EDITOR=/usr/bin/vim
 export PS1="[\u@\h \W]\$ "
