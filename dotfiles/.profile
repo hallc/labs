@@ -1,5 +1,7 @@
-MY_PATH=~/Projects/labs/scripts
+MY_PATH=$MY_PATH:~/Projects/labs/scripts
 MY_PATH=$MY_PATH:/Applications/android-sdk-macosx/tools
+MY_PATH=$MY_PATH:/Applications/android-sdk-macosx/platform-tools
+MY_PATH=$MY_PATH:/Library/Frameworks/Python.framework/Versions/Current/bin
 export PATH=$MY_PATH:$PATH
 
 export EDITOR=/usr/bin/vim
