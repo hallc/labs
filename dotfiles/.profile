@@ -26,5 +26,4 @@ fi
 alias ll='ls -lh'
 alias la='ls -A'
 alias src='source ~/.profile'
-alias chop12="sed 's/\(.\{12\}\).*/\1/'"
 
