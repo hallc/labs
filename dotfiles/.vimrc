@@ -2,7 +2,7 @@ set guioptions=-mt
 set nobackup
 set autoindent
 set smartindent
-set background=light
+set background=dark
 set ruler
 "set number
 syntax on
