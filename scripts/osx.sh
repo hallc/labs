@@ -16,3 +16,6 @@ sudo launchctl load -w /System/Library/LaunchDaemons/org.apache.httpd.plist
 # Remove apps that no longer exist from the "Open With" menu
 /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/LaunchServices.framework/Versions/A/Support/lsregister -kill -r -domain local -domain system -domain user
 
+# Install X11 Libs
+xcode-select --install
+
