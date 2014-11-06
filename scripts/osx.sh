@@ -19,3 +19,7 @@ sudo launchctl load -w /System/Library/LaunchDaemons/org.apache.httpd.plist
 # Install X11 Libs
 xcode-select --install
 
+# Fix Chrome on Yosemite
+defaults delete com.google.Chrome NSNavPanelExpandedSizeForSaveMode
+defaults delete com.google.Chrome NSNavPanelExpandedSizeForOpenMode
+
