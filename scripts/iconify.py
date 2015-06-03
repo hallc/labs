@@ -31,7 +31,7 @@ def main():
 		destination = _create_output_file(args.res_dir, density_name, args.filename)
 
 		print('Writing: {}'.format(destination))
-		icon = source.resize((density_size, density_size), Image.NEAREST)
+		icon = source.resize((density_size, density_size), Image.LANCZOS)
 		icon.save(destination, 'PNG')
 		icon.close()
 
