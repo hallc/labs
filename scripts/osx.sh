@@ -3,10 +3,6 @@
 # Show the ~Library directory
 chflags nohidden ~/Library
 
-# Hide the directories Remote Desktop creates under ~Documents
-chflags hidden ~/Documents/RDC\ Connections
-chflags hidden ~/Documents/Microsoft\ User\ Data
-
 # Suspend to RAM only
 sudo pmset -a hibernatemode 0
 
@@ -19,7 +15,6 @@ sudo launchctl load -w /System/Library/LaunchDaemons/org.apache.httpd.plist
 # Install X11 Libs
 xcode-select --install
 
-
 # Disable Safari promotion
 defaults write com.apple.coreservices.uiagent CSUIHasSafariBeenLaunched -bool YES
 defaults write com.apple.coreservices.uiagent CSUIRecommendSafariNextNotificationDate -date 2050-01-01T00:00:00Z
@@ -27,3 +22,4 @@ defaults write com.apple.coreservices.uiagent CSUILastOSVersionWhereSafariRecomm
 
 defaults write com.apple.Safari DefaultBrowserDateOfLastPrompt -date '2050-01-01T00:00:00Z'
 defaults write com.apple.Safari DefaultBrowserPromptingState -int 2
+

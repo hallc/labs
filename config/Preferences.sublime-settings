@@ -1,13 +1,11 @@
 {
-	"highlight_modified_tabs": true,
 	"hot_exit": false,
+	"open_files_in_new_window": false,
+	"highlight_modified_tabs": true,
+	"tab_completion": false,
 	"ignored_packages":
 	[
-		"GitGutter",
 		"Vintage"
-	],
-	"open_files_in_new_window": false,
-	"remember_open_files": false,
-	"tab_completion": false
+	]
 }
 
