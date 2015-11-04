@@ -23,3 +23,6 @@ defaults write com.apple.coreservices.uiagent CSUILastOSVersionWhereSafariRecomm
 defaults write com.apple.Safari DefaultBrowserDateOfLastPrompt -date '2050-01-01T00:00:00Z'
 defaults write com.apple.Safari DefaultBrowserPromptingState -int 2
 
+# Disable HotPlug for cameras
+#defaults write com.apple.ImageCapture disableHotPlug -bool YES
+
