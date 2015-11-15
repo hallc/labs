@@ -24,5 +24,5 @@ defaults write com.apple.Safari DefaultBrowserDateOfLastPrompt -date '2050-01-01
 defaults write com.apple.Safari DefaultBrowserPromptingState -int 2
 
 # Disable HotPlug for cameras
-#defaults write com.apple.ImageCapture disableHotPlug -bool YES
+defaults write com.apple.ImageCapture disableHotPlug -bool YES
 
