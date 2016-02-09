@@ -162,6 +162,8 @@
 	</data>
 	<key>name</key>
 	<string>Dracula M2</string>
+	<key>shellExitAction</key>
+	<integer>0</integer>
 	<key>type</key>
 	<string>Window Settings</string>
 </dict>
