@@ -6,13 +6,10 @@ chflags nohidden ~/Library
 # Suspend to RAM only
 sudo pmset -a hibernatemode 0
 
-# Start apache on boot
-sudo launchctl load -w /System/Library/LaunchDaemons/org.apache.httpd.plist
-
 # Remove apps that no longer exist from the "Open With" menu
 /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/LaunchServices.framework/Versions/A/Support/lsregister -kill -r -domain local -domain system -domain user
 
-# Install X11 Libs
+# Install command line developer tools
 xcode-select --install
 
 # Disable Safari promotion
@@ -26,3 +23,6 @@ defaults write com.apple.Safari DefaultBrowserPromptingState -int 2
 # Disable HotPlug for cameras
 defaults write com.apple.ImageCapture disableHotPlug -bool YES
 
+# Disable metadata file creation on network and USB drives
+defaults write com.apple.desktopservices DSDontWriteNetworkStores -bool true
+defaults write com.apple.desktopservices DSDontWriteUSBStores -bool true
