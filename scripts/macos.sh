@@ -1,16 +1,7 @@
 #!/bin/bash
 
-# Show the ~Library directory
-chflags nohidden ~/Library
-
 # Suspend to RAM only
 sudo pmset -a hibernatemode 0
-
-# Remove apps that no longer exist from the "Open With" menu
-/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/LaunchServices.framework/Versions/A/Support/lsregister -kill -r -domain local -domain system -domain user
-
-# Install command line developer tools
-xcode-select --install
 
 # Disable Safari promotion
 defaults write com.apple.coreservices.uiagent CSUIHasSafariBeenLaunched -bool YES
@@ -32,4 +23,7 @@ defaults write com.apple.desktopservices DSDontWriteUSBStores -bool true
 
 # Disable captive portal detection
 defaults write /Library/Preferences/SystemConfiguration/com.apple.captive.control Active -boolean false
+
+# Install command line developer tools
+xcode-select --install
 
