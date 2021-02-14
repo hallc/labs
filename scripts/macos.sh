@@ -1,8 +1,5 @@
 #!/bin/bash
 
-# Suspend to RAM only
-sudo pmset -a hibernatemode 0
-
 # Disable Safari promotion
 defaults write com.apple.coreservices.uiagent CSUIHasSafariBeenLaunched -bool YES
 defaults write com.apple.coreservices.uiagent CSUIRecommendSafariNextNotificationDate -date 2050-01-01T00:00:00Z
@@ -26,4 +23,3 @@ defaults write /Library/Preferences/SystemConfiguration/com.apple.captive.contro
 
 # Install command line developer tools
 xcode-select --install
-

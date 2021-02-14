@@ -33,4 +33,3 @@ def process_jar(path, search_term):
 
 if __name__ == '__main__':
 	main()
-

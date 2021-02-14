@@ -6,4 +6,3 @@ if [ $# != 1 ]; then
 fi
 
 lsof -n -i4TCP:$1 | grep LISTEN
-
