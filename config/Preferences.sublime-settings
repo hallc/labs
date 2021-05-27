@@ -1,4 +1,5 @@
 {
+	"color_scheme": "Packages/Color Scheme - Default/Monokai.sublime-color-scheme",
 	"highlight_modified_tabs": true,
 	"hot_exit": false,
 	"ignored_packages":
@@ -8,6 +9,6 @@
 	"mini_diff": "auto",
 	"open_files_in_new_window": false,
 	"remember_open_files": false,
-	"tab_completion": false
+	"tab_completion": false,
 }
 
