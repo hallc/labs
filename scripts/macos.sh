@@ -18,8 +18,5 @@ defaults write com.apple.ImageCapture disableHotPlug -bool YES
 defaults write com.apple.desktopservices DSDontWriteNetworkStores -bool true
 defaults write com.apple.desktopservices DSDontWriteUSBStores -bool true
 
-# Disable captive portal detection
-defaults write /Library/Preferences/SystemConfiguration/com.apple.captive.control Active -boolean false
-
 # Install command line developer tools
 xcode-select --install
