@@ -14,6 +14,9 @@ defaults write com.apple.Safari com.apple.Safari.ContentPageGroupIdentifier.WebK
 # Disable HotPlug for cameras
 defaults write com.apple.ImageCapture disableHotPlug -bool YES
 
+# Prevent Apple Music from launching automatically
+launchctl unload -w /System/Library/LaunchAgents/com.apple.rcd.plist
+
 # Disable metadata file creation on network and USB drives
 defaults write com.apple.desktopservices DSDontWriteNetworkStores -bool true
 defaults write com.apple.desktopservices DSDontWriteUSBStores -bool true
