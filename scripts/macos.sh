@@ -1,5 +1,9 @@
 #!/bin/bash
 
+# Configure the dock
+defaults write com.apple.dock tilesize 48
+defaults write com.apple.dock largesize 72
+
 # Disable Safari promotion
 defaults write com.apple.coreservices.uiagent CSUIHasSafariBeenLaunched -bool YES
 defaults write com.apple.coreservices.uiagent CSUIRecommendSafariNextNotificationDate -date 2050-01-01T00:00:00Z
@@ -15,7 +19,7 @@ defaults write com.apple.Safari com.apple.Safari.ContentPageGroupIdentifier.WebK
 defaults write com.apple.ImageCapture disableHotPlug -bool YES
 
 # Prevent Apple Music from launching automatically
-sudo launchctl unload -w /System/Library/LaunchAgents/com.apple.rcd.plist
+launchctl unload -w /System/Library/LaunchAgents/com.apple.rcd.plist
 
 # Disable metadata file creation on network and USB drives
 defaults write com.apple.desktopservices DSDontWriteNetworkStores -bool true
