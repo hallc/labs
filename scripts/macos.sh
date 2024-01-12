@@ -1,9 +1,5 @@
 #!/bin/bash
 
-# Configure the dock
-defaults write com.apple.dock tilesize 48
-defaults write com.apple.dock largesize 72
-
 # Disable Safari promotion
 defaults write com.apple.coreservices.uiagent CSUIHasSafariBeenLaunched -bool YES
 defaults write com.apple.coreservices.uiagent CSUIRecommendSafariNextNotificationDate -date 2050-01-01T00:00:00Z
