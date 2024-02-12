@@ -8,6 +8,9 @@ defaults write com.apple.coreservices.uiagent CSUILastOSVersionWhereSafariRecomm
 defaults write com.apple.Safari DefaultBrowserDateOfLastPrompt -date '2050-01-01T00:00:00Z'
 defaults write com.apple.Safari DefaultBrowserPromptingState -int 2
 
+# Disable upgrade notifications
+defaults write com.apple.SoftwareUpdate MajorOSUserNotificationDate -date '2050-01-01T00:00:00Z'
+
 # Disable Hyperlink Auditing Beacon
 defaults write com.apple.Safari com.apple.Safari.ContentPageGroupIdentifier.WebKit2HyperlinkAuditingEnabled -bool false
 
