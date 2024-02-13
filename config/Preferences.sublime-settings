@@ -4,6 +4,7 @@
 	"hot_exit": "disabled",
 	"index_files": true,
 	"mini_diff": "auto",
+	"open_files_in_new_window": "never",
 	"spell_check": true,
 	"tab_completion": false,
 	"update_check": false
