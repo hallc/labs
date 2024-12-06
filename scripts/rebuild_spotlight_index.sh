@@ -1,6 +1,9 @@
 #!/bin/bash
 
-sudo mdutil -Eai off
+echo -n "Forcing Spotlight index rebuild... "
+
+sudo mdutil -Eai off &> /dev/null
 sleep 3
-sudo mdutil -Eai on
-mdutil -as
+sudo mdutil -Eai on &> /dev/null
+
+echo "done!"
