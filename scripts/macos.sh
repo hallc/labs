@@ -27,5 +27,9 @@ defaults write com.apple.desktopservices DSDontWriteUSBStores -bool true
 # Disable captive portal detection
 sudo defaults write /Library/Preferences/SystemConfiguration/com.apple.captive.control Active -boolean false
 
+# Prevent startup when opening the lid or connecting to power
+sudo nvram BootPreference=%00
+#sudo nvram -d BootPreference
+
 # Install command line developer tools
 xcode-select --install
