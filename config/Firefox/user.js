@@ -1,6 +1,16 @@
+user_pref("beacon.enabled", false);
 user_pref("browser.tabs.hoverPreview.enabled", false);
 user_pref("browser.tabs.tabmanager.enabled", false);
+user_pref("browser.urlbar.trimURLs", false);
 user_pref("browser.urlbar.update2.engineAliasRefresh", true);
+user_pref("datareporting.policy.dataSubmissionEnabled", false);
 user_pref("extensions.pocket.enabled", false);
+user_pref("geo.enabled", false);
+user_pref("geo.provider.network.url", "");
+user_pref("network.dns.disablePrefetch", true);
+user_pref("network.dns.disablePrefetchFromHTTPS", true);
+user_pref("network.http.speculative-parallel-limit", 0);
+user_pref("network.IDN_show_punycode", true);
+user_pref("network.predictor.enabled", false);
+user_pref("network.prefetch-next", false);
 user_pref("toolkit.legacyUserProfileCustomizations.stylesheets", true);
-
