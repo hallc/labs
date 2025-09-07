@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 # Disable Safari promotion
 defaults write com.apple.coreservices.uiagent CSUIHasSafariBeenLaunched -bool YES

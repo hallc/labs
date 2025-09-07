@@ -1,3 +1,3 @@
-#!/bin/bash
+#!/bin/sh
 
 exiftool -d %Y/%m "-directory<FileModifyDate" *
