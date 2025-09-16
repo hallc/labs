@@ -1,6 +1,7 @@
 user_pref("beacon.enabled", false);
 user_pref("browser.ml.chat.enabled", false);
 user_pref("browser.ml.enable", false);
+user_pref("browser.tabs.groups.enabled", false);
 user_pref("browser.tabs.hoverPreview.enabled", false);
 user_pref("browser.urlbar.trimURLs", false);
 user_pref("datareporting.policy.dataSubmissionEnabled", false);
