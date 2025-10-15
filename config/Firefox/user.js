@@ -1,6 +1,13 @@
 user_pref("beacon.enabled", false);
 user_pref("browser.ml.chat.enabled", false);
+user_pref("browser.ml.chat.menu", false);
+user_pref("browser.ml.chat.page", false);
+user_pref("browser.ml.chat.shortcuts", false);
+user_pref("browser.ml.chat.sidebar", false);
 user_pref("browser.ml.enable", false);
+user_pref("browser.ml.linkPreview.enabled", false);
+user_pref("browser.ml.linkPreview.optin", false);
+user_pref("browser.ml.pageAssist.enabled", false);
 user_pref("browser.tabs.groups.enabled", false);
 user_pref("browser.tabs.hoverPreview.enabled", false);
 user_pref("browser.tabs.smart.enabled", false);
