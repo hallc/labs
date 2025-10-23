@@ -14,6 +14,7 @@ user_pref("browser.tabs.groups.smart.enabled", false);
 user_pref("browser.tabs.groups.smart.userEnabled", false);
 user_pref("browser.urlbar.trimURLs", false);
 user_pref("datareporting.policy.dataSubmissionEnabled", false);
+user_pref("extensions.ml.enabled", false);
 user_pref("geo.enabled", false);
 user_pref("geo.provider.network.url", "");
 user_pref("network.dns.disablePrefetch", true);
