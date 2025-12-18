@@ -8,6 +8,7 @@ user_pref("browser.ml.enable", false);
 user_pref("browser.ml.linkPreview.enabled", false);
 user_pref("browser.ml.linkPreview.optin", false);
 user_pref("browser.ml.pageAssist.enabled", false);
+user_pref("browser.profiles.enabled", false);
 user_pref("browser.tabs.groups.enabled", false);
 user_pref("browser.tabs.groups.smart.enabled", false);
 user_pref("browser.tabs.groups.smart.userEnabled", false);
