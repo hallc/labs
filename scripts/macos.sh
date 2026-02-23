@@ -11,6 +11,11 @@ defaults write com.apple.Safari DefaultBrowserPromptingState -int 2
 # Disable upgrade notifications
 defaults write com.apple.SoftwareUpdate MajorOSUserNotificationDate -date '2050-01-01T00:00:00Z'
 
+# Disable iWork upgrade notifications 
+defaults write com.apple.iWork.Pages TSADisableUpdateNotifications -bool yes
+defaults write com.apple.iWork.Keynote TSADisableUpdateNotifications -bool yes
+defaults write com.apple.iWork.Numbers TSADisableUpdateNotifications -bool yes
+
 # Disable Hyperlink Auditing Beacon
 defaults write com.apple.Safari com.apple.Safari.ContentPageGroupIdentifier.WebKit2HyperlinkAuditingEnabled -bool false
 
