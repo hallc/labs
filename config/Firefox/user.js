@@ -6,3 +6,4 @@ user_pref("mousewheel.with_control.action", -1);
 user_pref("mousewheel.with_meta.action", -1);
 user_pref("mousewheel.with_shift.action", -1);
 user_pref("network.IDN_show_punycode", true);
+user_pref("security.webauthn.enable_macos_passkeys", false);
