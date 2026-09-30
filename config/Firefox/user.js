@@ -1,3 +1,4 @@
+user_pref("browser.nova.enabled", false);
 user_pref("browser.tabs.groups.enabled", false);
 user_pref("browser.tabs.hoverPreview.enabled", false);
 user_pref("browser.tabs.splitView.enabled", false);
